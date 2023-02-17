@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Vehicle-Important-Dates/static/css/main.d542755a.css",
+    "main.js": "/Vehicle-Important-Dates/static/js/main.26871bba.js",
+    "static/media/calendar-icon.webp": "/Vehicle-Important-Dates/static/media/calendar-icon.dc611118e0a498c8902b.webp",
+    "index.html": "/Vehicle-Important-Dates/index.html",
+    "main.d542755a.css.map": "/Vehicle-Important-Dates/static/css/main.d542755a.css.map",
+    "main.26871bba.js.map": "/Vehicle-Important-Dates/static/js/main.26871bba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d542755a.css",
+    "static/js/main.26871bba.js"
+  ]
+}
