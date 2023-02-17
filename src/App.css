@@ -36,3 +36,95 @@
     transform: rotate(360deg);
   }
 }
+
+.App .container {
+  margin: auto;
+}
+
+.App .accordion {
+  margin: 20px;
+}
+
+.App .accordion-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.App .accordion-body > div {
+  margin: 10px;
+}
+
+.App .card-body > .btn {
+  margin: 0 10px;
+}
+
+.btn-fixed-bottom {
+  border-radius: 50%;
+  position: fixed;
+  z-index: 5;
+  box-shadow: 4px 5px 5px 0px #383838;
+  right: 20px;
+  bottom: 50px;
+}
+
+.modal-dialog {
+  margin-top: 10vh;
+}
+
+.modal-footer {
+  justify-content: space-between;
+}
+
+.form-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.form-div .mb-3 {
+  width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-div .mb-3 {
+    width: 100%;
+  }
+}
+
+.vehicle-image-section {
+  display: flex;
+  align-items: center;
+}
+.vehicle-image-section > * {
+  margin: 0 10px;
+  object-fit: contain;
+}
+
+.card-img-top {
+  height: 150px;
+  object-fit: contain;
+  padding: 5px;
+}
+
+.danger-item {
+  animation: danger 2s infinite;
+}
+
+@keyframes danger {
+  0% {
+    background: radial-gradient(transparent, red);
+  }
+  50% {
+    background: radial-gradient(red, transparent);
+  }
+  100% {
+    background: radial-gradient(transparent, red);
+  }
+}
+
+.reload-page {
+  right: 80vw;
+}
